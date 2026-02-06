@@ -1,0 +1,29 @@
+# Coffee Shop Web Application Project Overview
+
+This project is a deployed coffee shop website that showcases a café’s menu and brand. The site is designed to be clean, user-friendly, and easy to navigate. Users can browse different coffee options, view prices, and interact with features like adding items to a cart. The project demonstrates front-end only development skills and live deployment using Vercel.
+
+## Page Sections
+
+### Header / Navigation
+The header contains navigation links such as Home, Shop, About Us, and Cart. This allows users to move easily between different sections of the website.
+
+### Hero Section
+The hero section introduces the café with the phrase “Always Fresh Brewed.” It highlights the focus on high-quality, ethically sourced coffee and creates a strong first impression for visitors.
+
+### Coffee Menu
+This section displays the available drinks, including espresso, americano, latte, and cold brew. Each item includes a price and an “Add to Cart” button, allowing users to interact with the menu and simulate an online ordering experience.
+
+### Coffee Subscription
+The Coffee subscription section invites users to subscribe for updates and offers. This feature helps build a community around the café and encourages repeat engagement.
+
+### Footer
+The footer includes useful links such as About Us, Blog, FAQ, Privacy Policy, and social media icons. This section provides additional navigation and connects users to external platforms.
+
+### Deployment
+The project is deployed on Vercel, which allows the website to be hosted online and accessible through a public URL. Vercel also supports automatic deployments from a connected Git repository.
+
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Vercel (Deployment)
