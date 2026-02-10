@@ -23,7 +23,7 @@
 
       <nav class="primary-font">
         <ul class="horizontal-menu">
-          <li><a href="">Home</a></li>
+          <li><a href="#" id="home-link">Home</a></li>
           <li><a href="">Shop</a></li>
           <li><a href="">About Us</a></li>
           <li>
@@ -35,6 +35,15 @@
         </ul>
       </nav>
     </section>
+    <div id="cart-popup" class="cart-popup">
+      <div class="cart-popup-header">
+        <span class="primary-font" style="font-size: 1.1rem;">Your Cart</span>
+        <button id="cart-popup-close" class="cart-popup-close">&times;</button>
+      </div>
+      <div id="cart-items"></div>
+      <div id="cart-total" class="cart-total"></div>
+      <p id="cart-empty-msg" class="cart-empty-msg">Your cart is empty.</p>
+    </div>
     <section class="banner">
       <div class="hero">
         <h1 class="primary-font">
@@ -90,8 +99,9 @@
           style="width: 300px; height: 40px"
           placeholder="Enter your email"
         />
-        <button>Subscribe</button>
+        <button id="subscribe-btn">Subscribe</button>
       </div>
+      <p id="subscribe-msg" class="secondary-font" style="margin-top: 15px; font-weight: 600;"></p>
     </section>
     <footer>
       <div>
