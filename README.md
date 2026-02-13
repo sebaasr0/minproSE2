@@ -122,6 +122,7 @@ This project uses the following JavaScript DOM methods:
 
 ## Technologies Used 
 - HTML5
+- CSS
 - JavaScript
 - Vercel (Hosting)
 
